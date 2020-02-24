@@ -33,3 +33,6 @@
 4. LONG
 5. 1/22/20
 ...
+
+### Sources
+https://www.npmjs.com/package/convert-csv-to-json
