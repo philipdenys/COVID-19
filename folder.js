@@ -14,13 +14,18 @@ fs.readdir(directoryPath, function (err, files) {
     }
     //listing all files using forEach
     files.forEach(function (file) {
-        // Do whatever you want to do with the file
 
+        // load fileinputname
         let fileInputName = daily_reports_folder + file;
+
+        // if is .csv then
         if (/([a-zA-Z0-9\s_\\.\-\(\):])+(.csv)$/.test(file)) {
-            // 
+
+            // change the extention of the file
             file = file.substr(0, file.lastIndexOf(".")) + ".json";
             let fileOutputName = daily_reports_folder + file;
+
+            // convert csv content to json content
             csvToJson.fieldDelimiter(',').generateJsonFileFromCsv(fileInputName, fileOutputName);
         }
 
