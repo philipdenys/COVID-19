@@ -1,3 +1,10 @@
+/**
+ * @module CSV-to-JSON-converter
+ * @description takes the CSV data and converts it to a json file.
+ * @author Philip Denys
+ * @version 0.2 
+ */
+
 //requiring path and fs modules
 const path = require('path');
 const fs = require('fs');

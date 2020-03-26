@@ -1,5 +1,12 @@
 # Setup
 
+# Gameplan
+
+per region animate the evolution of the covid19 spread
+
+ex  day one: this amount of dots on the map
+    day two ...
+
 ## Daily reports
 1. Province/State
 2. Country/Region
@@ -37,4 +44,8 @@
 ### Sources
 https://www.npmjs.com/package/convert-csv-to-json
 https://datatables.net/
+
+jsdoc plugin for Gulp - https://github.com/mlucool/gulp-jsdoc3
+Google Maps API - https://developers.google.com/maps/documentation/javascript/examples/map-coordinates
+
 
